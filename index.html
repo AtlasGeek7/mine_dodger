@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mine Dodger!</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+
+  <body>
+    <div align="center">
+    <div id='main'>
+    <div id='header'>
+    <h1 id='score'>0</h1>
+    <h1 id='title'>MINE DODGER</h1>
+    </div>
+    <div id="game">
+      <h1 id='status'>GAME OVER</h1>
+<h1><a id="start" href="javascript:start()">START</a></h1>
+      <div id="dodger" style="bottom: 0px; left: 180px;"></div>
+      <button id='btn'><img src='shell.png' width="30" height="30">New Game</button>
+    </div>
+    <div id='footer'>
+     &copy; 2019 <img id='pic' src='moi.png' width="50" height="50"><br>
+     Designed & developed by Khalid Tissire.
+      </div>
+  </div>
+
+</div>
+    <h1 id='disp'></h1>
+    <script src="index.js"></script>
+    <audio id='zik' loop hidden>
+  <source src="mc.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<audio id='bang' hidden>
+<source src="bomb.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+  </body>
+</html>

@@ -1,0 +1,121 @@
+body {
+  background-color: #fff;
+}
+
+@font-face {
+ font-family: 'LearningCurveProRegular';
+ src: url('font/LearningCurve_OT-webfont.eot');
+ src: url('font/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'), url('font/LearningCurve_OT-webfont.woff') format('woff'), url('font/LearningCurve_OT-webfont.ttf') format('truetype'), url('font/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+#main {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,20,28,1) 24%, rgba(53,31,24,1) 27%, rgba(77,45,19,1) 28%, rgba(97,57,14,1) 28%, rgba(135,80,12,1) 30%, rgba(45,27,26,1) 33%);
+  text-align: center;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 600px;
+  height:600px;
+}
+
+#title {
+  font-family: 'LearningCurveProRegular', Ariel ;
+  font-weight: bold;
+}
+
+#header {
+  width: 600px;
+  height: 127px;
+  background-image: url("beach.jpg");
+}
+
+#score {
+  line-height: 70px;
+  width: 80px;
+  height: 74px;
+  text-align: center;
+  background-image: url("shield.png");
+  color: yellow;
+  font-size: 1.5em;
+}
+
+#pic {
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+#btn {
+  position: relative;
+  left: -50px;
+  top: 100px;
+  background-color: green;
+  background-color: rgba(0, 255, 0, 0.4);
+  font-family: fantasy, cursive;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor:pointer;
+  color: #000;
+}
+
+#dodger {
+  height: 52px;
+  position: absolute;
+  width: 37px;
+  background-image: url("crab.gif");
+  z-index: 3;
+}
+
+#game {
+  position: relative;
+  top: 30px;
+  background-color: #111;
+  background-image: url("bg.jpg");
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  width: 400px;
+}
+
+#start {
+  color: white;
+  font-size: 4rem;
+  position: relative;
+  visibility: hidden;
+  text-decoration: none;
+  top: 4rem;
+  z-index : 10;
+}
+
+#status {
+  visibility: hidden;
+  animation : blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.rock {
+  line-height: 30px;
+  width: 40px;
+  height: 40px;
+  font-size: 10px;
+  position: absolute;
+  background-image: url("mine.png");
+  z-index: 5;
+  color: white
+}
+
+#footer {
+  position: relative;
+  top: 40px;
+  height: 60px;
+  text-align: center;
+  background-color: rgb(200,200,200);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
