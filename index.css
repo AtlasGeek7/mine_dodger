@@ -111,6 +111,21 @@ body {
   color: white
 }
 
+.ctrl {
+  width: 198px;
+  position: relative;
+  top: 30px;
+  left: 97px;
+  background-color: green;
+  background-color: rgba(0, 255, 0, 0.4);
+  font-family: fantasy, cursive;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor:pointer;
+  color: #000;
+}
+
 #footer {
   position: relative;
   top: 40px;
