@@ -63,7 +63,7 @@ body {
 
 #glass {
   position: relative;
-  top: -30px;
+  top: -55px;
   background-color: blue;
   background-color: rgba(0, 0, 255, 0.4);
   height: 500px;
@@ -78,7 +78,7 @@ body {
   position: relative;
   width: 37px;
   background-image: url("crab.gif");
-  z-index: 13;
+  z-index: 5;
 }
 
 #game {
@@ -123,8 +123,9 @@ body {
   font-size: 10px;
   position: absolute;
   background-image: url("mine.png");
-  z-index: 13;
-  color: white
+  z-index: 10;
+  color: white;
+  font-weight: bold;
 }
 
 .ctrl {
