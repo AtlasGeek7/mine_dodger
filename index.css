@@ -48,7 +48,7 @@ body {
 #btn {
   position: relative;
   left: -50px;
-  top: 80px;
+  top: 100px;
   background-color: green;
   background-color: rgba(0, 255, 0, 0.4);
   font-family: fantasy, cursive;
